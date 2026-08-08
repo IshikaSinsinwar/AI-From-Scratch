@@ -1,4 +1,4 @@
-
+#Lesson 1: Vocabulary and token IDs
 #1. Raw Text
 text = """
 the cat drinks milk
@@ -37,5 +37,29 @@ sentence_processed= sentence.split()
 for word in sentence_processed:
     output_list.append(word_to_id[word])
 output_list
+
+#Lesson 2: Reverse Mapping and Decoding (Convert Numbers Back to Text)
+
+print(word_to_id)
+
+id_to_word={}
+
+for word, id in word_to_id.items():
+    id_to_word[id]=word
+
+print(id_to_word)
+
+encoded_sentence = [5,0,2,3]
+decoded_words=[]
+
+for word_id in encoded_sentence:
+    decoded_words.append(id_to_word[word_id])
+
+print(decoded_words)
+
+decoded_sentence = " ".join(decoded_words)
+print(decoded_sentence)
+
+
 
 
