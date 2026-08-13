@@ -1,4 +1,22 @@
-# Chapter 1: Text Representation
+# Chapter 1: Feed Forward NN
+Ultimate Goal: 
+Project 1.1 = Embeddings (Semantic Similarity Search)
+Project 1.2 = Feed Forward Neural Network
+
+By the end of Project 1.1, The questions I want answered:
+
+Question 1: What is an embedding?
+Question 2: How does Word2Vec learn embeddings?
+Question 3: Why do words like: king, queen, man, woman end up near each other?
+Question 4: How do modern embedding models differ from Word2Vec?
+Question 5: How do companies use embeddings?
+Examples:
+Semantic Search
+RAG
+Recommendations
+Similarity Search
+Retrieval Systems
+
 
 ## Goal
 Understand how a computer converts human language into numbers.
